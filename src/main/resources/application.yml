@@ -1,0 +1,19 @@
+#spring.application.name=mcp-spring-ai-banking
+spring:
+  application.name: mcp-spring-ai-banking
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY:}
+      chat:
+        options:
+          model: gpt-4o
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+
+server:
+  port: 8080
