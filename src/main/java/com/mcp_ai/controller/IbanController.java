@@ -34,7 +34,7 @@ public class IbanController {
     )
     @ApiResponse(
             responseCode = "200",
-            description = "Doğrulama sonucu",
+            description = "Validation result",
             content = @Content(schema = @Schema(implementation = IbanValidationResult.class))
     )
     public ResponseEntity<IbanValidationResult> validate(@RequestBody IbanRequest request) {
