@@ -16,7 +16,7 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("MCP Spring AI – Banking Demo")
-                        .description("Swiss banking/insurance için MCP tabanlı AI tool servisleri")
+                        .description("MCP-based AI tool services for Swiss banking/insurance")
                         .version("v0.1.0")
                         .license(new License().name("Proprietary").url("https://example.ch/legal"))
                         .contact(new Contact().name("Platform Team").email("renas.ozmen@gmail.com")))

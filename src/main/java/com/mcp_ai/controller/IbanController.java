@@ -29,8 +29,8 @@ public class IbanController {
 
     @PostMapping("/validate")
     @Operation(
-            summary = "İsviçre IBAN doğrulama",
-            description = "IBAN'ı normalize eder, kuralları uygular, PII hijyeni ile masked IBAN döner"
+            summary = "Swiss IBAN validation",
+            description = "Normalizes the IBAN, applies validation rules, and returns a masked IBAN with PII hygiene"
     )
     @ApiResponse(
             responseCode = "200",
