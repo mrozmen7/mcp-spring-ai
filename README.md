@@ -16,7 +16,8 @@ The purpose is to design a **Swiss IBAN validation service** aligned with real b
 
 ---
 
-## Project Structure
+## Project Structure 
+```json
 src/main/java/com/mcp_ai
 │
 ├── domain
@@ -31,6 +32,8 @@ src/main/java/com/mcp_ai
 │
 └── mcp
 └── IbanMcpTools.java 
+```
+
 --- 
 - **Domain** → IBAN Value Object and ValidationResult
 - **Service** → Business rules (country check, length, digits, mod-97)
